@@ -109,6 +109,8 @@ def run_daemon():
     print("=" * 80 + "\n")
 
 if __name__ == "__main__":
+    import sys
+    sys.exit(0)
     while True:
         run_daemon()
         # Sleep for 12 hours between autonomous checkups
